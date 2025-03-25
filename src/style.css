@@ -9,18 +9,56 @@
   --Rose800: hsl(332, 51%, 32%);
   --Rose50: hsl(330, 100%, 98%);
 }
-
+section {
+  margin-top: 1rem;
+}
+h2 {
+  font-family: "Young Serif";
+  color: var(--Brown800);
+  font-weight: lighter;
+}
+h1 {
+  color: #282725;
+  font-family: "Young Serif";
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+h3,
+p,
+li {
+  font-family: outfit;
+}
+p {
+  font-size: 0.7rem;
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+span {
+  font-weight: bold;
+  font-weight: bold;
+  color: #282725;
+}
 .hero {
   margin: 0 auto;
   width: 25rem;
   background-color: #fff;
   padding: 2rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero .prepation {
   background-color: var(--Rose50);
   padding: 0.5rem;
+}
+.hero .food,
+.ingredients,
+.instructions {
+  border-bottom: 1px solid hsla(30, 10%, 34%, 50%);
+  padding-bottom: 1rem;
 }
 .hero .prepation h3 {
   color: var(--Rose800);

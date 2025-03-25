@@ -11,32 +11,9 @@ img {
 body {
   background-color: var(--Stone100);
   font-size: 62.5%;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   font-weight: 400;
   display: grid;
-  grid-auto-rows: 95vh 5vh;
-}
-h2 {
-  font-family: 'Young Serif';
-  color: var(--Brown800);
-  font-weight: lighter;
-}
-h1{
-  color: #000;
-  font-family: 'Young Serif';
-  font-size: 1.3rem;
-  font-weight: lighter;
-}
-h3,p,li{
-  font-family: outfit;
-}
-p{
-  font-size: 0.7rem;
-}
-ul,
-ol {
-  list-style-position: inside;
+  grid-template-rows: 100vh 10vh;
 }
