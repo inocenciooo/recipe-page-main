@@ -1,42 +1,43 @@
-:root{
-    --Stone100: hsl(30, 54%, 90%);
-    --Stone150: hsl(30, 18%, 87%);
-    --Stone600: hsl(30, 10%, 34%);
-    --Stone900: hsl(24, 5%, 18%);
+:root {
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
 
-    --Brown800: hsl(14, 45%, 36%);
+  --Brown800: hsl(14, 45%, 36%);
 
-    --Rose800: hsl(332, 51%, 32%);
-    --Rose50: hsl(330, 100%, 98%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-}
-img{
-    width: 100%;
-}
-body{
-    background-color: var(--Stone100);
-    font-size: 62.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hero {
+  margin: 0 auto;
+  width: 25rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
-.hero{
-
+.hero .prepation {
+  background-color: var(--Rose50);
+  padding: 0.5rem;
+}
+.hero .prepation h3 {
+  color: var(--Rose800);
+}
+.hero .prepation ul {
+  list-style-type: disc;
+}
+.hero .prepation ul li::marker {
+  color: var(--Rose800);
 }
 
-.attribution{
-    font-size: 1.1rem; text-align: center;
-    bottom: 0;
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  bottom: 0;
 }
-.attribution a{
-    font-size: 1.1rem;
-    color: tomato;
+.attribution a {
+  font-size: 1.1rem;
+  color: tomato;
 }
