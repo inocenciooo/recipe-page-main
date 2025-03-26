@@ -12,6 +12,11 @@
 section {
   margin-top: 1rem;
 }
+
+.image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
 h2 {
   font-family: "Young Serif";
   color: var(--Brown800);
@@ -28,6 +33,10 @@ p,
 li {
   font-family: outfit;
 }
+h1,
+h2 {
+  margin-bottom: 0.5rem;
+}
 p {
   font-size: 0.7rem;
 }
@@ -37,12 +46,10 @@ ol {
 }
 span {
   font-weight: bold;
-  font-weight: bold;
   color: #282725;
 }
 .hero {
-  margin: 0 auto;
-  width: 25rem;
+  width: 30rem;
   background-color: #fff;
   padding: 2rem;
   border-radius: 1rem;
@@ -52,16 +59,18 @@ span {
 
 .hero .prepation {
   background-color: var(--Rose50);
-  padding: 0.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
-.hero .food,
-.ingredients,
+.hero .ingredients,
 .instructions {
-  border-bottom: 1px solid hsla(30, 10%, 34%, 50%);
+  border-bottom: 1px solid hsla(30, 10%, 34%, 20%);
   padding-bottom: 1rem;
 }
 .hero .prepation h3 {
   color: var(--Rose800);
+  margin-bottom: 0.3rem;
 }
 .hero .prepation ul {
   list-style-type: disc;
@@ -70,10 +79,33 @@ span {
   color: var(--Rose800);
 }
 
+.hero .nutrition div {
+  border-bottom: 1px solid hsla(30, 10%, 34%, 20%);
+  display: grid;
+  grid-template-areas: "tipe . value .";
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0.5rem 0;
+}
+.hero .nutrition div > p:nth-child(1) {
+  grid-area: tipe;
+}
+
+.hero .nutrition div > p:nth-child(2) {
+  grid-area: value;
+  font-weight: bold;
+  color: var(--Brown800);
+}
+.hero p,
+.hero ul > li,
+ol > li,
+.hero .nutrition div > p {
+  font-size: 0.7rem;
+}
+
 .attribution {
   font-size: 1.1rem;
   text-align: center;
-  bottom: 0;
+  padding: 3vh 0;
 }
 .attribution a {
   font-size: 1.1rem;
