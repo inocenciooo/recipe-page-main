@@ -17,7 +17,16 @@ A landing page foi criada para fins educacionais e serve como ponto de partida p
 - **HTML5**
 - **CSS3**
 
-## Resultados da Landing Page - PROJETO NÃO FINALIZADO! ⚠️⚠️:
+## Resultados da Landing Page:
+
+### Versão Desktop
+
+<img src="./assets/images-preview/Macbook-Air-1559x1783.png" style="display: block; margin: auto;">
+
+### Versão Mobile
+
+<img src="./assets/images-preview/iPhone-14-Pro-393x1904.png" style="display: block; margin: auto;">
+<br>
 
 <p><a href="https://inocenciooo.github.io/recipe-page-main/" target="_blanck">Acesse aqui</a> para visualizar o projeto no <strong>GitHub Pages</strong> com mais detalhes!</p>
 

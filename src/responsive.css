@@ -1,9 +1,22 @@
-@media (max-width: 900px){
-    .hero{
-        width: 100vw;
-        padding: 3rem;
-    }
-    html, body{
-        background-color: #fff;
-    }
+@media (max-width: 900px) {
+  .hero {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    background-color: #fff;
+  }
+  body {
+    grid-template-rows: 0 1fr 5vh;
+  }
+  .hero img {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .hero section {
+    margin: 1rem 2rem;
+  }
 }

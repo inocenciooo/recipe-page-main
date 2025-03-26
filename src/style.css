@@ -25,7 +25,7 @@ h2 {
 h1 {
   color: #282725;
   font-family: "Young Serif";
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   font-weight: lighter;
 }
 h3,
@@ -49,12 +49,14 @@ span {
   color: #282725;
 }
 .hero {
-  width: 30rem;
+  width: 40rem;
   background-color: #fff;
   padding: 2rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  grid-area: hero;
+  margin: 0 auto;
 }
 
 .hero .prepation {
@@ -77,8 +79,13 @@ span {
 }
 .hero .prepation ul li::marker {
   color: var(--Rose800);
+  font-weight: bold;
 }
-
+.hero section > ul li::marker,
+ol li::marker {
+  color: var(--Brown800);
+  font-weight: bold;
+}
 .hero .nutrition div {
   border-bottom: 1px solid hsla(30, 10%, 34%, 20%);
   display: grid;
@@ -99,15 +106,18 @@ span {
 .hero ul > li,
 ol > li,
 .hero .nutrition div > p {
-  font-size: 0.7rem;
+  font-size: 1rem;
+  padding: 0.5rem 0;
 }
 
 .attribution {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;
   padding: 3vh 0;
+  grid-area: footer;
+  font-family: outfit;
 }
 .attribution a {
-  font-size: 1.1rem;
-  color: tomato;
+  font-size: 1rem;
+  color: var(--Brown800);
 }
